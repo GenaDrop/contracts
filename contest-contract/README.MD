@@ -15,6 +15,10 @@
 - Only an admin set while deploying the contract can create Contest sessions. Each Contest specifies:
 - Artist must own the nft they're submitting for contest, if at anytime the nft leaves their wallet, they'll be disqualified.
 
+### Creating contest params. 
+
+#### function-name: `create-contest`
+
   - `title`: A String serving as the name of the contest i.e 
   - `dao_id`: the dao responsible for payout proposals for the prospective contest winners
   - `submission_start_time`: submission start time as UNIX time (in epoch timestamp seconds)
